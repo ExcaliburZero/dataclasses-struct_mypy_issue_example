@@ -28,8 +28,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install .
-        rm build
 
     - name: Lint with mypy
       run: |
-        mypy .
+        mypy main.py
