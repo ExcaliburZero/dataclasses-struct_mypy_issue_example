@@ -1,0 +1,7 @@
+[project]
+name = "dataclasses_struct_mypy_issue_example"
+version = "0.0.1"
+dependencies = ["mypy==1.15.0", "dataclasses-struct==0.8.3"]
+
+[tool.mypy]
+plugins = ["dataclasses_struct.ext.mypy_plugin"]
